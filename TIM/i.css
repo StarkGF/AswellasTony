@@ -1,0 +1,75 @@
+* {
+  padding: 0;
+  margin: 0; }
+
+a {
+  display: inline-block;
+  width: 80px;
+  height: 50px;
+  color: white;
+  font-size: 18px;
+  line-height: 50px;
+  margin-left: 30px;
+  margin-right: 30px; }
+  a:link {
+    text-decoration: none; }
+  a:hover {
+    background-color: #2784e0;
+    cursor: pointer; }
+
+#nav {
+  height: 140px;
+  width: 700px;
+  position: absolute;
+  top: 0%;
+  left: 25%;
+  text-align: center; }
+
+#special {
+  border-bottom: 4px solid white; }
+
+#logo {
+  position: absolute;
+  top: 8px;
+  left: 12.5%; }
+
+#picture {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: 130px;
+  left: 17%; }
+
+#content {
+  position: absolute;
+  left: 10%;
+  top: 30%;
+  height: 100px;
+  width: 438px;
+  margin-top: 25px; }
+
+p {
+  color: white;
+  line-height: 50px; }
+
+button {
+  position: absolute;
+  top: 120%;
+  left: 13%;
+  height: 60px;
+  width: 270px;
+  font-size: 28px;
+  color: #2784e0;
+  background-color: white;
+  border-radius: 25px 25px;
+  line-height: 60px;
+  cursor: pointer; }
+  button:hover {
+    background-color: #d8ebf5; }
+
+#picture2 {
+  position: absolute;
+  right: 11%;
+  top: 16%; }
+
+/*# sourceMappingURL=i.css.map */
