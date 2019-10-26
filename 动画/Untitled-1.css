@@ -1,0 +1,160 @@
+#green {
+  background-color: darkgreen;
+  width: 400px;
+  height: 300px;
+  position: relative;
+  margin: 0 auto;
+  margin-top: 200px;
+  border-radius: 5px;
+}
+
+#green:hover #bang {
+  animation: boom 1s ease-in-out;
+  animation-delay: 0.1s;
+}
+
+#yellow {
+  background-color: gold;
+  margin: 0 auto;
+  height: 50%;
+  width: 50%;
+  position: absolute;
+  top: 25%;
+  left: 0;
+  right: 0;
+  -moz-animation: color 4s ease-in infinite;
+  animation: color 4s  ease-in infinite;
+  -moz-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  border-radius: 5px 5px;
+}
+
+#yellow:hover {
+  animation-play-state: paused;
+}
+
+#yellow:hover #black {
+  animation: demo 1.4s ease-out,arrow;
+}
+
+#yellow:hover #liquid {
+  animation: arrow 1s linear;
+}
+
+#black {
+  width: 90%;
+  height: 30%;
+  background-color: black;
+  position: absolute;
+  left: 70%;
+  top: 36%;
+  transition: all .1s;
+  border-radius: 10px 0 0 10px;
+}
+
+#liquid {
+  width: 0;
+  height: 0;
+  border-top: 2px solid red;
+  border-right: 2px solid red;
+  width: 28px;
+  height: 28px;
+  transform: rotate(45deg);
+  position: absolute;
+  top: 20%;
+  left: 70%;
+  display: inline-block;
+  z-index: -1;
+}
+
+#bang {
+  font-size: 60px;
+  position: absolute;
+  width: 300px;
+  margin: 0 auto;
+  color: white;
+  top: -100%;
+}
+
+@-moz-keyframes color {
+  0% {
+    background-color: lawngreen;
+    -moz-transform: rotate(0deg);
+  }
+  25% {
+    background-color: lightcoral;
+    -moz-transform: translate(90deg);
+  }
+  50% {
+    -moz-transform: rotate(180deg);
+    background-color: lightseagreen;
+  }
+  75% {
+    -moz-transform: rotate(270deg);
+    background-color: palevioletred;
+  }
+  100% {
+    -moz-transform: rotate(360deg);
+    background-color: rebeccapurple;
+  }
+}
+
+@keyframes color {
+  0% {
+    background-color: lawngreen;
+    -moz-transform: rotate(0deg);
+  }
+  25% {
+    background-color: lightcoral;
+    -moz-transform: rotate(90deg);
+  }
+  50% {
+    -moz-transform: rotate(180deg);
+    background-color: lightseagreen;
+  }
+  75% {
+    -moz-transform: rotate(270deg);
+    background-color: palevioletred;
+  }
+  100% {
+    -moz-transform: rotate(360deg);
+    background-color: rebeccapurple;
+  }
+}
+
+@keyframes demo {
+  50% {
+    transform: translate(-9%, 0);
+    background-color: red;
+  }
+  100% {
+    transform: translate(9%, 0);
+    background-color: red;
+  }
+}
+
+@keyframes arrow {
+  25% {
+    transform: translate(150px, 0) rotate(45deg);
+  }
+  50% {
+    transform: translate(300px, 0px) rotate(45deg);
+  }
+  100% {
+    border: transparent;
+  }
+}
+
+@keyframes boom {
+  0% {
+    transform: scale(0.1);
+    color: grey;
+  }
+  50% {
+    transform: scale(1.2);
+    color: black;
+  }
+  100% {
+    transform: scale(0);
+  }
+}
