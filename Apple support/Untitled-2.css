@@ -16,7 +16,7 @@ input:focus{outline: none;}
 }
 #nav a{
     display: inline-block;
-    width: 9%;
+    width: 6.5%;
     line-height:40px ;
     font-size: 13px;
     color: white;
@@ -37,12 +37,14 @@ a:link{
     
     height:300px;
     position: absolute;
-    top:15%;
-    left:27%;
+    top:0;
+    left:0;
+    right:0;
     text-align: center;
+    margin: 180px auto;
 }
 #search input{
-    width:700px;
+    width:680px;
     height:50px;
     border: 1px solid grey;
     border-radius: 2px 2px;
@@ -68,13 +70,11 @@ input::-webkit-input-placeholder{
     letter-spacing: 2px;
     line-height: 50px;
     font-family: inherit;
+    padding-left: 20px;
 }
 #products{
-    width:1080px;
+    width:58.25%;
     height:400px;
-    display:  flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
     margin: 10px auto;
 }
 #products img{
@@ -84,14 +84,15 @@ input::-webkit-input-placeholder{
 .product{
     margin: 30px;
     height:120px;
-    width: 100px;
+    width: 120px;
     text-align: center;
     cursor: pointer;
+    float: left;
 }
 #products a{
     display:block;
     margin-top:18px;
-    color: black;
+    color: #000;
 }
 #products a:hover{
     text-decoration: underline;
@@ -103,14 +104,15 @@ input::-webkit-input-placeholder{
     text-align: left;
     position: relative;
     padding-bottom: 10px;
+    margin:0 auto;
 }
 #news{
     height: 250px;
-    width:32%;
+    width:21%;
     margin-top: 40px;
     margin-bottom: 60px;
     position: absolute;
-    left: 18%;
+    left: 28%
  
 
 }
@@ -128,13 +130,12 @@ input::-webkit-input-placeholder{
 #update img{
     position: absolute;
     margin-top: 40px;
-    left:50%;
+    left:49%;
     width:420px;
     height:230px;
 }
 #retake{
     position: relative;
-    height: 397px;
 }
 #exchange{
     position: absolute;
@@ -151,14 +152,17 @@ input::-webkit-input-placeholder{
 }
 #solution{
     height: 400px;
-    width: 990px;
-    margin: 40px 200px;
+    width: 70%;
     display: flex;
-    justify-content: space-between; 
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
 .interact{
     width: 282.703px;
     height: 400px;
+    margin: 0 20px;
 
 }
 .interact img{
@@ -181,7 +185,6 @@ input::-webkit-input-placeholder{
 }
 #learning{
     width: 100%;
-    height: 397px;
     margin-bottom: 20px;
     position: relative;
 }
@@ -201,10 +204,11 @@ input::-webkit-input-placeholder{
 }
 #insurance{
     height:200px;
-    width:420px;
-    margin-left: 260px;
+    width:24%;
     margin-top: 20px;
     text-align: left;
+    position: absolute;
+    left:28%
 
 }
 #insurance a{
@@ -219,7 +223,7 @@ input::-webkit-input-placeholder{
     height:220px;
     position: absolute;
     top:20px;
-    right:25%
+    left:53%
 }
 #AppleCare{
     position: relative;
@@ -234,7 +238,7 @@ input::-webkit-input-placeholder{
    
     height:230px;
     width:350px;
-    left:20%;
+    left:28%;
     top:13%;
     position: absolute;
 }
@@ -273,7 +277,7 @@ input::-webkit-input-placeholder{
     width:480px;
     position: absolute;
     top: 20%;
-    left:19%;
+    left:28%;
 }
 #protection a{
     color: #0070c9;
@@ -285,7 +289,7 @@ input::-webkit-input-placeholder{
     position: absolute;
     height:150px;
     width: 150px;
-    right:20%;
+    right:28%;
     top:19%;
 }
 #service{
@@ -333,6 +337,7 @@ input::-webkit-input-placeholder{
     background-color: #f2f2f2;
     display: flex;
     justify-content: center;
+    position: relative;
 }
 #footer p{
     color: black;
@@ -357,4 +362,91 @@ input::-webkit-input-placeholder{
 #footer a:hover{
     text-decoration: underline;
 }
+#footerB {
+    height:30px;
+    position: absolute;
+    left:10%;
+    width:100px;
+
+}
+#footerB span{
+    height:8px;
+    width:9px;
+    border-right:1px solid rgb(211, 205, 205);
+    border-top:1px solid rgb(211, 205, 205);
+    transform: rotate(50deg) skewX(15deg) ;
+    display: inline-block;
+    position: relative;
+    top:-50%;
+}
+#footerB p{
+    display:inline-block;
+    position: relative;
+    top:-50%;
+    padding-left: 13px;
+    font-size: 12px;
+    color: #555;
+
+}
+@media screen and ( max-width:1856px)
+{
+    #products{
+        height:800px;
+        width: 1000px;
+    }
+    .product{
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+    #update img{
+        position: absolute; 
+        margin: 300px auto;
+        left:0;
+        right: 0;
+            
+    }
+    #update{
+        height:580px
+    }
+    #news{
+        width: 800px;
+        margin: 40px auto;
+        left:0;
+        right:0;
+        text-align: center;
+    }
+    #solution{
+        height:680px;
+        flex-direction: column;
+        width:800px;
+        margin-top: 20px;
+    }
+    .interact img{
+        float: left;
+        margin-right: 20px;
+    }
+    .interact{
+        height: 200px;
+        width: 780px;
+        margin-left: 0;
+        margin-top: 10px;
+    }
+    #care{
+        display: none;
+    }
+    #insurance{
+        width:900px;
+        left:0;
+        right:0;
+        margin: 20px auto;
+    }
+    #protectionB{
+        display: none;
+    }
+    #exchange{
+        top:15%
+    }
+    
+}
+
 
