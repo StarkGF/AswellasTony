@@ -1,0 +1,431 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#header{
+    height: 720px;
+   
+    background-image: url("static/sss.jpg");
+}
+#nav {
+    position: absolute;
+    height: 80px;
+    background-color: black;
+    width:999px;
+   
+}
+ul{
+    list-style: none;
+    background-color: black
+}
+ul li{
+    line-height: 80px;
+    text-align: center;
+    position: relative;
+    display: inline;
+    padding-right: 20px;
+}
+a{
+    text-decoration: none;
+    color: azure;
+    display:inline-block;
+    width:90px;
+}
+a:hover{
+    color: darkgrey
+}
+ul li ul li{
+    float: none;margin-top: 0px; background-color: black;
+    font-size: 8px;
+    
+}
+ul li ul{
+    margin: 0px;
+    position: absolute;
+    display: none;
+    width:400px;
+    z-index: 777;
+}
+ul li:hover ul{display:block;}
+#box1{
+    position: relative;
+    top:0px;
+    left:999px;
+    width:440px;
+    background-color: #000000;
+    height:80px;
+    text-align: left;
+    line-height: 80px;
+    
+}
+input{
+    border:none;
+    padding-left: 12px;
+    margin-right: 11px;
+    
+}
+#lian{
+    position: absolute;
+    line-height: 40px;
+    left:277px;
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+    padding-left: 3px;
+    top:19px;
+    border-radius: 15px 15px;
+    
+}
+#box2{
+    position: absolute;
+    background-color: white;
+    top:105px;
+    left:160px;
+    height: 500px;
+    width: 378px;
+    border-radius: 5px 5px;
+    
+}
+.A
+{
+    font-size: 14px/2em;
+    padding:20px 30px;
+}
+
+input{
+    height: 44px;
+    width: 300px;
+    border: 2px solid gray;
+
+}
+#box2 p{
+    font-size: 5px;
+    margin-left: 30px;
+}
+#box2 p a{
+    color:blue;
+}
+#box2 p a:hover{
+   text-decoration: underline;
+}
+#box3
+{
+    position: absolute;
+    right:400px;
+    top:240px;
+    font-size: 50px;
+    color: maroon
+}
+#box4{
+    position: absolute;
+    right:130px;
+    top: 389px;
+    font-size: 25px
+    }
+#box4 a{
+    color: darkslategray
+}
+#box4 a:link{
+    text-decoration: underline;
+    text-decoration-color: darkgreen;
+}
+#box4 a:hover{
+    text-decoration-color: white;
+    color: red;
+}
+#box0{
+    position:absolute;
+    top:-17px;
+    left:33px;
+}
+#content1{
+    height: 300px;
+    width: 1200px;
+    margin: 40px auto;
+    padding: 0 auto;
+    background-image: url(static/iso-ui.jpg)
+}
+#box5{
+    position: relative;
+    top:55px;
+    left:60px;
+    z-index: 999;
+
+}    
+#box6{
+    height:44px;
+    width:560px;
+    position: relative;
+    top: 80px;
+    left: 60px;
+}
+#box7
+{
+    position: relative;
+    margin: auto 0;
+    left:800px
+}
+#content2
+{
+    margin-top: 30px;
+    text-align: center
+}
+#box8{
+    text-align: center;
+
+}
+#box8 img{
+    text-align: center;
+    margin: 0 20px;
+}
+.subcon{
+    margin-top: 80px;
+    text-align: center;
+    margin: 80px auto;
+    padding: 10px auto;
+    width:660px;
+}
+.subtext{
+    text-align: center;
+    
+    
+}
+.subtext p1{
+    font-size: 10px;
+    color: dimgray;
+}
+.subtext h1{
+    font-size: 43px;
+    color: black;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+.subtext blockquote{
+    font-size: 20px;
+    color: dimgray;
+    letter-spacing: 1.5px;
+    line-height: 10px;
+}
+.subcon img{
+    margin-left:-60px;
+    margin-top: 20px;
+}
+#one{
+    margin: 0 auto;
+    width: 1300px;
+    float: none;
+    height: 800px;
+}
+#one img{
+    float: left;
+    padding: 44px;
+    margin: 4px;
+    width: 700px;
+}
+.team{
+    text-align:left;
+    float: right;
+    width: 440px;
+    height: 200px;
+    margin-top:22px;
+    padding: 15px 22px;
+    font-size: 14px;
+    margin-right: 14px;
+}
+.team:hover{
+    border:2px solid;
+    box-shadow: 3px;
+    border-color: gainsboro
+
+}
+#box10{
+    font-size: 18px;
+    color: grey;
+    text-align: center;
+    width: 1000px;
+    margin: 1px auto;
+    height: 80px;
+    
+}
+.Q{
+    height: 490px;
+    width: 1300px;
+    margin:  10px auto;
+  
+}
+.Z{
+    height: 420px;
+    width: 260px;
+    padding: 5px auto;
+    border:1px solid gainsboro;
+    float: left;
+    margin-left: 59px;
+    border-radius: 2px 2px;
+    align:center;
+    cursor: pointer;
+}
+.X{
+    margin: 10px 7px;
+    border-radius: 2px 2px;
+}
+
+.C{
+    margin: 20px 9px;
+    line-height: 30px;
+}
+.C span{
+    font-size: 10px;
+    color: dimgrey;
+}
+.V{
+    height:3px;
+    width: 220;
+    border:1px solid gainsboro;
+    margin: 10px 7px;
+    border-right: none;
+    border-left: none;
+    border-top: none;
+}
+.N{
+    height:20px;
+    widows: 250px;
+    margin: 18px auto;
+    color: blue;
+    padding-left: 10px;
+}
+#box22{
+    height: 400px;
+    width: 1280px;
+    margin: 30px -180px;
+    text-align: left
+}
+#box23{
+    float: right;
+    height:300px;
+    width: 550px;
+    margin-right: 80px;
+    
+}
+.O{
+    height: 100px;
+    width: 512px;
+    float: left;
+    margin:40px 66px;
+}
+.O span{
+    font-size: 22px;
+}
+#box24{
+    height: 333px;
+    width: 200px;
+    margin-left: -77px;
+}
+#box25{
+     height: 333px;
+     width :800px;
+     margin-left: 66px;
+}
+#box26{
+    height:44px;
+    width: 400px;
+    margin: 0 auto;
+    font-size: 13px;
+    text-align: center
+}
+#box26 a{
+    color: blue;
+    font-size: 14px;
+    margin: 0 auto;
+}
+#box30{
+    height:100px;
+    width: 550px;
+    margin: 10px auto;
+    text-align: center;
+    line-height: 30px;
+    font-size: 18px;
+    color: rgb(97, 93, 93)
+}
+#box31{
+    width: 1400px;
+    height: 540px;
+    background-color: rgb(34, 44, 49);
+    text-align: center;
+}
+#box32{
+    width: 890px;
+    height: 180px;
+    line-height: 44px;
+    font-size: 30px;
+    color: white;
+    margin: 50px auto;
+}
+#box33{
+    position: relative;
+    height: 100px;
+    width: 1250px;
+    top:300;
+    left:70px;
+}
+#box33 input{
+    
+    width:250px;
+}
+.Y{ width:300px;
+    height: 100px;
+    float: left;
+    padding-left: 0;
+}
+#box35{
+    height: 100px;
+    width: 1230px;
+    margin:30px auto;
+    color: dimgrey;
+    font-size: 4px;
+    letter-spacing: 0.01px;
+}
+#box36{
+    width:1395px;
+    height:400px;
+    background-color:white;
+  
+}
+#box37{
+    height: 0px;
+    width: 10px;
+    margin: 50px;
+   
+    clear: both;
+}
+.H{
+    height: 300px;
+    width: 180px;
+  
+    float: right;
+    margin-top:-50px;
+    margin-right: 35px;
+    line-height: 40px;
+    color: dimgrey;
+    text-align: left;
+    font-size: 13px;
+
+}
+.H a{
+    color: dimgrey;
+}
+.H a:hover{
+    color: blue;
+    text-decoration: underline;
+    text-decoration-color: blue;
+}
+
+
+
+
+
+
+
+    
+
+
+ 
