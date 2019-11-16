@@ -1,0 +1,83 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+@mixin fontQ {
+    color: #fff;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+}
+#father{
+    width: 1300px;
+    height: 268px;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(25, 174, 255);
+    margin:0 auto;
+    margin-top: 20px;
+    border-radius: 20px; 
+
+}
+.chid{
+    width: 324px;
+    height: 185px;
+    margin-top: 33px;
+    text-align: left;
+    padding-left: 60px;
+    border-right: 1px solid rgb(255, 255, 255);
+}
+.na{
+    @include fontQ;
+}
+.me{
+    color: #fff;
+    font-weight: 400;
+    line-height: 36px;
+    font-size: 18px;
+    width: 198px;
+    display: block;
+}
+#ee{
+    border-right: 1px solid rgb(25, 174, 255);
+}
+#selection{
+    width: 1300px;
+    height: 59px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    margin-bottom: 73px;
+}
+.select{
+    width: 240px;
+    height: 41px;
+    text-align: center;
+    margin-top: 18px ;
+    margin-right: 25px;
+    border-radius: 20px;
+    line-height: 41px;
+    color: #fff;
+    font-size: 30px;
+    font-weight: 400;
+    margin-bottom: 73px;
+}
+#Aa{
+    background-color: rgb(183, 230, 255);
+}
+#Bb{
+    background-color: rgb(148, 217, 255);
+}
+#Cc{
+    background-color: rgb(121, 208, 255);
+}
+#Dd{
+    background-color: rgb(88, 196, 255);
+}
+#Ee{
+    background-color: rgb(25, 174, 255);
+    margin-right: 0px;
+}
+
+
+

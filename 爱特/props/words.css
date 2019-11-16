@@ -1,0 +1,35 @@
+.Words {
+  width: 1300px;
+  margin: 0 auto;
+  padding: 50px;
+  text-align: center;
+}
+
+.up {
+  height: 36px;
+}
+
+.down {
+  height: 36px;
+}
+
+.left {
+  color: #32ADEC;
+  line-height: 36px;
+  font-size: 24px;
+  font-weight: 400;
+  margin-right: 10px;
+}
+
+.ddown {
+  color: #E29E28;
+  font-size: 36px;
+  font-weight: 400;
+}
+
+.right {
+  color: #8B8B8B;
+  line-height: 36px;
+  font-size: 24px;
+  font-weight: 400;
+}

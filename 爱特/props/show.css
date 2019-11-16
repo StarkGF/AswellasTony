@@ -1,0 +1,38 @@
+#wall {
+  margin: 0 auto;
+  margin-top: 64px;
+  height: 390px;
+  position: relative;
+  width: 1300px;
+}
+
+.sh {
+  width: 493px;
+  height: 250px;
+  float: left;
+  margin-top: 70px;
+  padding: 23px 19px 26px 19px;
+  background-color: #b7e6ff;
+  border-radius: 20px;
+}
+
+.sho {
+  width: 493px;
+  height: 250px;
+  float: right;
+  margin-top: 70px;
+  padding: 23px 19px 26px 19px;
+  background-color: #b7e6ff;
+  border-radius: 20px;
+}
+
+#ow {
+  height: 302px;
+  width: 595px;
+  position: absolute;
+  left: 320px;
+  top: 43px;
+  padding: 43px 27px 45px 30px;
+  background-color: #19aeff;
+  border-radius: 20px;
+}

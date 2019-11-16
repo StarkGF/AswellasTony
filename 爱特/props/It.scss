@@ -1,0 +1,179 @@
+$colorA:#32ADEC;
+$colorB:#8B8B8B;
+$colorC:#E29E28;
+$colorD:#232323;
+@mixin fontA {
+    color: $colorA;
+    line-height: 36px;
+    font: {
+        size: 24px;
+        weight:$fontweight;
+        
+    }
+}
+@mixin fontB {
+    color: $colorC;
+    font: {
+        size:36px;
+        weight:$fontweight;
+    }
+}@mixin fontC {
+    color: $colorD;
+    line-height: 30px;
+    font-size: 18px;
+    font-weight: 400;
+    
+}
+$fontweight:400;
+$texttype:2em;
+*{
+    font-family: Source Han Sans CN;
+    margin: 0px;
+    padding: 0;
+}
+
+#Intro{
+    width: 1300px;
+    height: 651px;
+    border-radius: 20px;
+    margin: 0,auto;
+    text-align: center;
+    line-height: 36px;
+    padding-top: 50px;
+    margin: auto auto;
+    background-color: white;
+    margin-top: 780px;
+    margin-bottom: 73px;
+   
+    #C{
+        color: $colorA;
+        font: {
+            size: 24px;
+            weight:400;
+        }
+        margin-right: 10px;
+    }
+    #A{
+        color:$colorB;
+        font: {
+            size:24px;
+            weight:400;
+        }
+    }
+    #B{
+        color: $colorC;
+        font-size: 36px;
+        font-weight:400;
+    }
+
+}
+    #tion{
+    width:1146px;
+    height: 60px;
+    margin-bottom: 30px;
+    margin: 33px 41.5px 33px 35.5px;
+    font-size: 18px;
+    color:$colorD;
+    font-weight: 400;
+    text-align: left;
+    text-indent: $texttype;
+}
+    #nn{
+    width:1146px;
+    height: 60px;
+    margin-bottom: 30px;
+    margin: 33px 41.5px 33px 35.5px;
+    font-size: 18px;
+    color:$colorD;
+    font-weight: 400;
+    text-align: left;
+    text-indent: $texttype;
+}
+#About{
+    display: flex;
+    justify-content: center;
+    margin: {
+        top: 53px;
+        bottom: 65px;
+    }
+    .us{
+        width: 390px;
+        height: 299px;
+        background-color: rgb(245, 245, 245);
+        border-radius: 20px;
+        margin-right: 64px;
+        
+    }
+    #us{
+        margin: 0;
+    }
+    .uss{
+        width: 326px;
+        height: 76px;
+        margin: 37px 32px 45px 32px;
+        box-sizing: border-box;
+        
+        .s{
+            float: left;
+            
+        }
+    }
+    
+    .title{
+        @include fontA;
+    }
+    .content{
+        @include fontB;
+    }
+    p{
+        @include fontC;
+        width: 326px;
+        height: 90px;
+        margin: {
+            right:32px;
+            left: 32px;
+        }
+        text-align: left;
+    }
+}
+#bg{
+   height:760px;
+   position: absolute;
+   z-index: -100;
+   margin-top: 10px;
+}
+.pas1{
+    margin-top: 14px;
+    @include fontC;
+    text-align: center;
+}
+#Un{
+    width: 1300px;
+    height: 156px;
+    text-align:center ;
+    margin: 0 auto;
+    color: #000;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+#der{
+    padding: {
+        top:44px;
+        bottom: 20px;
+    };
+}
+#line{
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 36px;
+    background: #58c4ff;
+    border-radius: 15px;
+    width: 163px;
+    height: 37px;
+    border: 0;
+}
+

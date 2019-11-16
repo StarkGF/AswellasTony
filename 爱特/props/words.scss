@@ -1,0 +1,50 @@
+$colorA:#32ADEC;
+$colorB:#8B8B8B;
+$colorC:#E29E28;
+
+@mixin fontA {
+    color: $colorA;
+    line-height: 36px;
+    font: {
+        size: 24px;
+        weight:$fontweight;
+        
+    }
+}
+@mixin fontB {
+    color: $colorC;
+    font: {
+        size:36px;
+        weight:$fontweight;
+    }
+}@mixin fontC {
+    color: $colorB;
+    line-height: 36px;
+    font-size: 24px;
+    font-weight: 400;
+    
+}
+$fontweight:400;
+.Words{
+    width:1300px;
+    margin: 0 auto;
+    padding: 50px;
+    text-align: center;
+}
+.up{
+    height: 36px;
+    
+}
+.down{
+    height: 36px;
+}
+.left{
+    @include fontA;
+    margin-right: 10px;
+}
+.ddown{
+    @include fontB;
+}
+.right{
+    @include fontC;
+}

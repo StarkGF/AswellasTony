@@ -1,0 +1,163 @@
+* {
+  font-family: Source Han Sans CN;
+  margin: 0px;
+  padding: 0;
+}
+
+#Intro {
+  width: 1300px;
+  height: 651px;
+  border-radius: 20px;
+  margin: 0,auto;
+  text-align: center;
+  line-height: 36px;
+  padding-top: 50px;
+  margin: auto auto;
+  background-color: white;
+  margin-top: 780px;
+  margin-bottom: 73px;
+}
+
+#Intro #C {
+  color: #32ADEC;
+  font-size: 24px;
+  font-weight: 400;
+  margin-right: 10px;
+}
+
+#Intro #A {
+  color: #8B8B8B;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+#Intro #B {
+  color: #E29E28;
+  font-size: 36px;
+  font-weight: 400;
+}
+
+#tion {
+  width: 1146px;
+  height: 60px;
+  margin-bottom: 30px;
+  margin: 33px 41.5px 33px 35.5px;
+  font-size: 18px;
+  color: #232323;
+  font-weight: 400;
+  text-align: left;
+  text-indent: 2em;
+}
+
+#nn {
+  width: 1146px;
+  height: 60px;
+  margin-bottom: 30px;
+  margin: 33px 41.5px 33px 35.5px;
+  font-size: 18px;
+  color: #232323;
+  font-weight: 400;
+  text-align: left;
+  text-indent: 2em;
+}
+
+#About {
+  display: flex;
+  justify-content: center;
+  margin-top: 53px;
+  margin-bottom: 65px;
+}
+
+#About .us {
+  width: 390px;
+  height: 299px;
+  background-color: whitesmoke;
+  border-radius: 20px;
+  margin-right: 64px;
+}
+
+#About #us {
+  margin: 0;
+}
+
+#About .uss {
+  width: 326px;
+  height: 76px;
+  margin: 37px 32px 45px 32px;
+  box-sizing: border-box;
+}
+
+#About .uss .s {
+  float: left;
+}
+
+#About .title {
+  color: #32ADEC;
+  line-height: 36px;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+#About .content {
+  color: #E29E28;
+  font-size: 36px;
+  font-weight: 400;
+}
+
+#About p {
+  color: #232323;
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: 400;
+  width: 326px;
+  height: 90px;
+  margin-right: 32px;
+  margin-left: 32px;
+  text-align: left;
+}
+
+#bg {
+  height: 760px;
+  position: absolute;
+  z-index: -100;
+  margin-top: 10px;
+}
+
+.pas1 {
+  margin-top: 14px;
+  color: #232323;
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: 400;
+  text-align: center;
+}
+
+#Un {
+  width: 1300px;
+  height: 156px;
+  text-align: center;
+  margin: 0 auto;
+  color: #000;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 36px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+#der {
+  padding-top: 44px;
+  padding-bottom: 20px;
+}
+
+#line {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 36px;
+  background: #58c4ff;
+  border-radius: 15px;
+  width: 163px;
+  height: 37px;
+  border: 0;
+}
