@@ -1,0 +1,108 @@
+.list1 {
+  width: 1300px;
+  height: 299px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  margin-top: 50px;
+  margin-bottom: 109px;
+}
+
+.list1 .ttop {
+  display: none;
+}
+
+.ture {
+  width: 240px;
+  height: 299px;
+  border-radius: 20px;
+  display: flex;
+  margin-top: 50px;
+  margin-bottom: 69px;
+}
+
+#CX {
+  background-color: #7cd1ff;
+}
+
+#QD {
+  background-color: #ed6c9e;
+}
+
+#UI {
+  background-color: #b062c0;
+}
+
+#APP {
+  background-color: #89c2aa;
+}
+
+#GAME {
+  background-color: #f5b57e;
+}
+
+.depa {
+  width: 120px;
+  height: 188px;
+  margin: auto auto;
+  align-self: center;
+  text-align: center;
+}
+
+.ture img {
+  width: 105px;
+  height: 106px;
+  margin-bottom: 42px;
+}
+
+.uunder {
+  color: #fff;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 36px;
+}
+
+.list2 {
+  width: 1300px;
+  height: 299px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  margin-top: 50px;
+  margin-bottom: 109px;
+}
+
+.list2 img {
+  display: none;
+}
+
+#A2014 {
+  background-color: #b7e6ff;
+}
+
+#A2015 {
+  background-color: #94d9ff;
+}
+
+#A2016 {
+  background-color: #79d0ff;
+}
+
+#A2017 {
+  background-color: #58c4ff;
+}
+
+#A2018 {
+  background-color: #19aeff;
+}
+
+.ttop {
+  color: #fff;
+  font-size: 72px;
+  font-weight: 400;
+  font-family: SourceHanSansCN-Regular;
+  line-height: 36px;
+  display: block;
+  margin-bottom: 90px;
+  margin-top: 20px;
+}
